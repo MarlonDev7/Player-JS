@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2fe13d6488.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="imagens/spotify_icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Player Music</title>
+</head>
+<body>
+    <img src="imagens/drake.png" alt=" ">
+    <div class="descricao">
+        <h2>Hotline Bling</h2>
+        <i>Drake</i>
+    </div>
+
+    <div class="duracao">
+
+        <div class="barra">
+            <progress value="0" max="1"> </progress>
+            <div class="ponto"></div>
+        </div>
+
+        <div class="tempo">
+            <p class="inicio">0:00</p>
+            <p class="fim"> 4:10</p>
+        </div>
+
+    </div>
+
+    <div class="player">
+        
+        <i class="fas fa-step-backward setas anterior"></i>
+        <i class="fas fa-play-circle botao-play"></i>
+        <i class="fas fa-pause-circle botao-pause"></i>
+        <i class="fas fa-step-forward setas proxima"></i>
+        
+    </div>
+    <audio src="musicas/Drake - Hotline Bling.mp3"></audio>
+    <script src="main.js"></script>
+    
+</body>
+</html>
